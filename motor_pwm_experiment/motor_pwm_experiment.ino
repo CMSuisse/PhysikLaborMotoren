@@ -4,7 +4,7 @@ Adafruit_MotorShield AFMS = Adafruit_MotorShield();
 
 Adafruit_DCMotor *experimentMotor = AFMS.getMotor(1);
 
-const uint8_t motorSpeed = 24;
+const uint8_t motorSpeed = 35;
 
 void setup() {
   Serial.begin(9600);
